@@ -8,7 +8,11 @@ class CategoryScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final categories = recipes.map((r) => r.category).toSet().toList()..sort();
+    final categories = [
+      'italian',
+      'indian',
+      'turkish',
+    ];
 
     return Scaffold(
       appBar: AppBar(

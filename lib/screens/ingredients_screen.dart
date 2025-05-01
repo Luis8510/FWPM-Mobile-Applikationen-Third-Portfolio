@@ -15,7 +15,7 @@ class IngredientsScreen extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text('Ingredients: ',
-                style: Theme.of(context).textTheme.titleLarge),
+                style: Theme.of(context).textTheme.headlineMedium),
             const SizedBox(height: 8),
             for (var ing in recipe.ingredients)
               Padding(
